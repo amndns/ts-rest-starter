@@ -1,12 +1,12 @@
 <h1 align="center">TypeScript REST API Starter</h1>
 <p align="center">
-  <a href="https://github.com/amndns/ts-rest-starter/blob/master/README.md" target="_blank">
+  <a href="https://github.com/amndns/ts-rest-starter/blob/main/README.md" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="https://github.com/amndns/ts-rest-starter/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/amndns/ts-rest-starter/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/amndns/ts-rest-starter/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
   </a>
 </p>
@@ -39,21 +39,22 @@ Give a ⭐️ if this project helped you!
 
 | Name                              | Description |
 | --------------------------------- | ----------- |
-| **.vscode/**                      | VSCode tasks, launch configuration and some other settings |
-| **dist/**                         | Compiled source files will be placed here |
+| **.vscode/**                      | VSCode tasks, launch configuration, and some other settings |
+| **dist/**                         | Compiled source files |
 | **src/**                          | Source files |
-| **src/api/common/**               | Common API controllers, services, repositories, models, middlewares, and so on. |
+| **src/api/common/**               | Common API controllers, services, repositories, models, middlewares, etc. |
 | **src/api/\*\*/controllers/**     | REST API controller layer |
 | **src/api/\*\*/middlewares/**     | Express middlewares like logging |
 | **src/api/\*\*/models/**          | TypeORM entity models and REST API backend models |
-| **src/api/\*\*/repositories/**    | Repository / DB layer |
+| **src/api/\*\*/producers/**       | RabbitMQ publishers |
+| **src/api/\*\*/repositories/**    | REST API repository/DAO layer |
 | **src/api/\*\*/services/**        | REST API service layer |
 | **src/auth/**                     | Authentication checkers and services |
 | **src/config/**                   | Environment configurations loaded into the project |
-| **src/database/factories**        | Factory that generates fake entities |
-| **src/database/migrations**       | Database migration scripts |
-| **src/database/seeds**            | Seeds to create some data in the database |
-| **src/loaders/**                  | Place where the REST API server and its dependencies can be configured |
+| **src/database/factories/**       | Factory that generates fake entities |
+| **src/database/migrations/**      | Database migration scripts |
+| **src/database/seeds/**           | Seeds to create some data in the database |
+| **src/loaders/**                  | REST API server configuration loader |
 | **src/utils/**                    | Common REST API utilities |
 | **test/**                         | Tests |
 | **test/unit/**                    | Unit tests and their mocks |
