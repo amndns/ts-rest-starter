@@ -1,5 +1,6 @@
 <h1 align="center">TypeScript REST API Starter</h1>
 <p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/amndns/ts-rest-starter/blob/main/README.md" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -59,13 +60,14 @@ Give a ⭐️ if this project helped you!
 | **test/**                         | Tests |
 | **test/unit/**                    | Unit tests and their mocks |
 | **.env.example**                  | Example raw environment configurations |
+| **app.ts**                        | REST API server entrypoint |
 
 ## ⚙️ API Endpoints
 
 The route prefix is `/api` by default, but you can change this in the `.env` file.
 
-| Route          | Description |
-| -------------- | ----------- |
+| Route              | Description             |
+| ------------------ | ----------------------- |
 | **/api/customers** | Example entity endpoint |
 
 ## 🚀 Get Started
